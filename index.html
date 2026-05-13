@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的网页</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#content">内容</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>首页</h2>
+            <p>这是一个可以随时添加内容的网页。</p>
+        </section>
+
+        <section id="about">
+            <h2>关于</h2>
+            <p>这个网页是为了方便添加内容而创建的。</p>
+        </section>
+
+        <section id="content">
+            <h2>内容区域</h2>
+            <div class="content-list">
+                <div class="content-item">
+                    <h3>内容项 1</h3>
+                    <p>这是第一个内容项。</p>
+                </div>
+                <div class="content-item">
+                    <h3>内容项 2</h3>
+                    <p>这是第二个内容项。</p>
+                </div>
+                <div class="content-item">
+                    <h3>内容项 3</h3>
+                    <p>这是第三个内容项。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>联系我们</h2>
+            <form id="contact-form">
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">邮箱:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">留言:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">发送</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 我的网页. 保留所有权利.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
